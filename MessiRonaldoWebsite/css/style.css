@@ -1,0 +1,118 @@
+
+h1 {
+    text-align: center;
+    background: #91c7f3;
+    padding-top: 20px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+h2 {
+    color: rgb(5, 24, 36);
+    text-align: center;
+    background: #dd3030;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3 {
+    color: #454FBE;
+    text-align: center;
+    background: #71a9be;
+}
+
+h2, h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    font-size: large;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width: auto;
+}
+
+#messi, #ronaldo > .player-info > p {
+    color: #1b417a;
+}
+
+p{
+    font-family: 'Kalam', cursive;
+}
+
+.player-info{
+    
+    background-color: #d0ecf8;
+    border: 2px solid rgb(241, 245, 0);
+    padding: 15px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: scroll;
+}
+
+/* General link styles */
+a {
+    color: rgb(245, 12, 12);
+  }
+  
+  a:visited {
+    color: rgb(38, 13, 201);
+  }
+  
+  a:hover {
+    color: rgb(0, 0, 0);
+  }
+  
+  /* Navigation link styles */
+  .navbar a {
+    color: white; /* Or any desired color */
+    /* Other styles for navigation links */
+  }
+  
+  .navbar a:visited {
+    color: white; /* Inherit the color from the parent element */
+  }
+  
+
+
+body{
+    background-color: rgb(128, 177, 177);
+}
+
+table{
+    background-color: #8ee0eb;
+}
+
+#voting-form{
+    background-color: #b1d6e7;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    height: auto;
+    width: 600px;
+}
+
+button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#voting-form > div {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+textarea{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
